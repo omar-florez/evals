@@ -1,0 +1,7 @@
+peruvian_university_unsa_bio:
+  id: peruvian_university_unsa_bio.dev.v0
+  metrics: [accuracy]
+peruvian_university_unsa_bio.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: peruvian_university/samples_unsa_bio.jsonl

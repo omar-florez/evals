@@ -1,7 +1,0 @@
-peruvian_university:
-  id: peruvian_university.dev.v0
-  metrics: [accuracy]
-peruvian_university.dev.v0:
-  class: evals.elsuite.basic.match:Match
-  args:
-    samples_jsonl: peruvian_university/samples.jsonl
