@@ -1,0 +1,7 @@
+peruvian_university_unmsm_cienciasdelasalud:
+  id: peruvian_university_unmsm_cienciasdelasalud.dev.v0
+  metrics: [accuracy]
+peruvian_university_unmsm_cienciasdelasalud.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: peruvian_university/samples_unmsm_cienciasdelasalud.jsonl
